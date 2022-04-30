@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Landing Page</title>
 </head>
 <body>
     <div id="header">
-        <div id="nav-bar">
-            Header Logo
+        <div class="nav-bar">
+            <div id="logo">Header Logo</div>
             <ul id="links-list">
                 <li><a href="#">header link one</a></li>
                 <li><a href="#">header link two</a></li>
@@ -17,46 +18,49 @@
             </ul>
         </div>
         
-        <div id="headline">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button type="submit">Sign up</button>
-            <img src="https://placeducky.com/photo/1080/566.png" alt="raw penne rigate on dark surface">
+        <div class="headline">
+            <div id="hero">
+                <h1 id="hero-text">This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button type="submit" class="buttons" id="button-one">Sign up</button>
+            </div>
+            <img src="https://placeducky.com/photo/1080/566.png" alt="Rubber Ducky">
         </div>
     </div>
     <div id="content">
         <div id="information">
-            Some random information
-            <div class="container">
-                <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/dr-stone/Senku_Ishigami_Portrait.png?raw=true" alt="Senku Ishigami from Dr. Stone">
-                <p class="subtext">this is some subtext under an illustration or image</p>
+            <h2>Some random information</h2>
+            <div id="boxes">
+                <div class="container">
+                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Best_Jeanist_anime_portrait.png?raw=true" alt="Best Jeanist from MHA">
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="container">
+                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Dabi_portrait.png?raw=true" alt="Dabi from MHA">
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="container">
+                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Tamaki_Amajiki_Anime_Portrait.png?raw=true" alt="Tamaki Amajiki from MHA">
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="container">
+                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Shota_Aizawa_Anime_Portrait.png?raw=true" alt="Shota Aizawa from MHA">
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+                </div>
             </div>
-            <div class="container">
-                <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Dabi_portrait.png?raw=true" alt="Dabi from MHA">
-                <p class="subtext">this is some subtext under an illustration or image</p>
-            </div>
-            <div class="container">
-                <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/dr-stone/Gen_Asagiri_Portrait.png?raw=true" alt="Gen Asagiri from Dr. Stone">
-                <p class="subtext">this is some subtext under an illustration or image</p>
-            </div>
-            <div class="container">
-                <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Shota_Aizawa_Anime_Portrait.png?raw=true" alt="Shota Aizawa from MHA">
-                <p class="subtext">this is some subtext under an illustration or image</p>
-            </div>
+        </div>
+        <div id="quote">
+            <p>This is an inspiring quote, or a testimonial from a customer.
+                Maybe it's just filling up space, or maybe people will actually read it.
+                Who knows? All I know is that it looks nice.
+            </p>
+            <p>-Thor, God of Thunder</p>
+        </div>
 
-            <div id="quote">
-                <h2>This is an inspiring quote, or a testimonial from a customer.
-                    Maybe it's just filling up space, or maybe people will actually read it.
-                    Who knows? All I know is that it looks nice.
-                </h2>
-                <p>-Thor, God of Thunder</p>
-            </div>
-
-            <div id="sign-up">
-                Call to action! It's time!
-                <p>Sign up for our product by clicking that button right over there!</p>
-                <button type="submit">Sign Up</button>
-            </div>
+        <div id="sign-up">
+            Call to action! It's time!
+            <p>Sign up for our product by clicking that button right over there!</p>
+            <button type="submit" class="buttons" id="button-two">Sign Up</button>
         </div>
     </div>
     <div id="footer">
