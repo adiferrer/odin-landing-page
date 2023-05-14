@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,66 +8,86 @@
     <link rel="stylesheet" href="styles.css">
     <title>Odin Landing Page</title>
 </head>
+
 <body>
-    <div id="header">
-        <div class="nav-bar">
-            <div id="logo">Header Logo</div>
-            <ul id="links-list">
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
-        </div>
-        
-        <div class="headline">
-            <div id="hero">
-                <h1 id="hero-text">This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button type="submit" class="buttons" id="button-one">Sign up</button>
+    <header>
+        <div class="content">
+            <div class="nav-bar">
+                <div class="logo">Header Logo</div>
+                <ul class="nav-list">
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
             </div>
-            <img src="https://placeducky.com/photo/1080/566.png" alt="Rubber Ducky">
+
+            <div class="hero">
+                <div class="hero-text">
+                    <h1 class="hero-header">This website is awesome</h1>
+                    <p class="hero-secondary-text">This website has some subtext that goes here under the main title.
+                        It's a smaller font and the color is lower contrast</p>
+                    <a href="#" class="btn" id="sign-up-one">Sign up</a>
+                </div>
+                <img src="https://placeducky.com/photo/1080/566.png" alt="Rubber Ducky">
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="information">
+        <div class="content">
+            <h2>Some random information.</h2>
+            <div class="display">
+                <div class="display-box">
+                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Best_Jeanist_anime_portrait.png?raw=true"
+                        alt="Best Jeanist from MHA">
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="display-box">
+                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Dabi_portrait.png?raw=true"
+                        alt="Dabi from MHA">
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="display-box">
+                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Tamaki_Amajiki_Anime_Portrait.png?raw=true"
+                        alt="Tamaki Amajiki from MHA">
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="display-box">
+                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Shota_Aizawa_Anime_Portrait.png?raw=true"
+                        alt="Shota Aizawa from MHA">
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="content">
-        <div id="information">
-            <h2>Some random information.</h2>
-            <div id="boxes">
-                <div class="container">
-                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Best_Jeanist_anime_portrait.png?raw=true" alt="Best Jeanist from MHA">
-                    <p class="subtext">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="container">
-                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Dabi_portrait.png?raw=true" alt="Dabi from MHA">
-                    <p class="subtext">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="container">
-                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Tamaki_Amajiki_Anime_Portrait.png?raw=true" alt="Tamaki Amajiki from MHA">
-                    <p class="subtext">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="container">
-                    <img src="https://github.com/EvanBacon/anime-lorem/blob/master/assets/my-hero-academia/Shota_Aizawa_Anime_Portrait.png?raw=true" alt="Shota Aizawa from MHA">
-                    <p class="subtext">this is some subtext under an illustration or image</p>
-                </div>
-            </div>
-        </div>
-        <div id="quote">
+
+    <div class="container" id="quote">
+        <div class="content">
             <h2>This is an inspiring quote, or a testimonial from a customer.
                 Maybe it's just filling up space, or maybe people will actually read it.
                 Who knows? All I know is that it looks nice.
             </h2>
             <p>-Thor, God of Thunder</p>
         </div>
+    </div>
 
-        <div id="sign-up">
-            <div id="text">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
+    <div class="container" id="sign-up-form">
+        <div class="content">
+            <div>
+                <div class="sign-up-text">
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <a href="#" class="btn" id="sign-up-two">Sign up</a>
             </div>
-            <button type="submit" class="buttons" id="button-two">Sign Up</button>
         </div>
     </div>
-    <div id="footer">
-        Copyright © The Odin Project 2021
-    </div>
+
+    <footer>
+        <div class="content">
+            Copyright © <a href="https://www.theodinproject.com/paths/foundations/courses/foundations">The Odin Project</a> 2021
+        </div>
+    </footer>
 </body>
+
 </html>
